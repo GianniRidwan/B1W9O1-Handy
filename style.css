@@ -1,0 +1,96 @@
+*{
+	font-family: 'Archivo', sans-serif;
+}
+
+.container{
+	position: absolute;
+	width: 1000px;
+	margin: auto;
+}
+
+.logo{
+	position: absolute;
+	left: 200px;
+}
+
+ul{
+	width: 950px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	position: absolute;
+	top: 40px;
+	left: 175px;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	font-size: 12px;
+	font-weight: 500;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: yellow;
+	color: black;
+}
+
+.header{
+	width: 1300px;
+	position: relative;
+	top: 63px;
+	margin: 0 auto;
+}
+
+.banners{
+	position: relative;
+	top: 100px;
+	margin: 20px;
+}
+
+.block{
+	width: 300px;
+	height: 220px;
+	display: inline-block;
+}
+
+.banners p{
+	width: 300px;
+	height: 220px;
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 220px;
+	color: white;
+	margin: 0;
+}
+
+.block:hover .child{
+	display: inline-block;
+}
+
+.child{
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+
+.firstBanner{
+	background-image: url(./img/banner-1.jpg);
+}
+
+.secondBanner{
+	background-image: url(./img/banner-2.jpg);
+}
+
+.thirdBanner{
+	background-image: url(./img/banner-3.jpg);
+}
